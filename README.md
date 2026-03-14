@@ -47,8 +47,9 @@ This app includes:
 
 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd <your-repo-name>
+git clone https://github.com/wuaitong/532-individual.git
+
+cd 532-individual 
 ```
 2. Open the project in RStudio
 
@@ -62,8 +63,8 @@ The summary metrics in this individual Shiny for R app may not exactly match the
 
 ## Group Project Reference
 
-This individual assignment is based on the group project: 
+This individual assignment is based on the group project: https://github.com/UBC-MDS/DSCI-532_2026_22_Vancouver-LC_Food-Programs
 
 ## Deployment
 
-The live application is deployed on Posit Connect Cloud at: [Your Deployment URL]
+The live application is deployed on Posit Connect Cloud at: https://019cec04-159b-9444-4637-fecf2e558799.share.connect.posit.cloud/
