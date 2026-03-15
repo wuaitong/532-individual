@@ -51,12 +51,18 @@ git clone https://github.com/wuaitong/532-individual.git
 
 cd 532-individual 
 ```
-2. Open the project in RStudio
+2. Install the required R packages in R or RStudio
+```
+install.packages(c("shiny", "dplyr", "ggplot2", "DT", "bslib", "readr"))
+```
+4. Open the project in RStudio
 
 Open the project folder in RStudio.
 
-3. click run app in RStudio
-
+4. Click run app in RStudio or
+```
+shiny::runApp()
+```
 ## Note on metric differences from the group project
 
 The summary metrics in this individual Shiny for R app may not exactly match the values shown in our original group project. This is because the group project calculates its dashboard metrics after filtering the dataset to keep only records with valid latitude and longitude values, since those records are needed for the map view. In contrast, this individual version does not use a map and may calculate summary statistics from a slightly different subset of the data. In addition, the original group project reads data directly from the Vancouver Open Data API, while this individual version uses the local food_program_data.csv file stored in the repository. These differences in data source and filtering logic can lead to small differences in totals and percentages.
